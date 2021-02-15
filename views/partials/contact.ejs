@@ -1,0 +1,41 @@
+<%- include header.ejs %>
+<%- include main_nav.ejs %>
+ 
+
+  <!--Main section-->
+  <main class="container">
+    <div class="jumbotron">
+    <h2 class="display-5">Contact Me</h2>
+
+
+
+    <div id="block"></div>
+
+<div id="contact" class="container-fluid">
+    <div class="container contact-wrapper">
+        <div class="contact-hightlight">Do you have questions for me?<br> Please fill out this form.</div>
+        <!--form-->
+        <form action="/contact" method="post" class="contact-form">
+            <input type="text" placeholder="First Name" name="first_name">
+            <input type="text" placeholder="Last Name" name="last_name">
+            <input type="text" placeholder="Phone" name="phone">
+            <input type="email" placeholder="Enter Email" name="email">
+            <textarea type="text" placeholder="Your Message" name="message"></textarea>
+            <input class="button" type="submit" value="SUBMIT"></button>
+        </form>
+        <!--infomation of me-->
+        <div id="info">
+            <h6><i class="fas fa-phone-square-alt"></i> (+1) 647-609-5923</h6>
+            <h6><i class="fas fa-envelope-square"></i> nina_pakingan@yahoo.com</h6>
+        </div>
+    </div>
+</div>
+    </div>
+
+    
+</main>
+ 
+
+
+<%- include bottom_nav.ejs %>
+<%- include footer.ejs %>

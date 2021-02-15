@@ -1,11 +1,11 @@
  <!--Main Navigation-->
  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="/">COMP229</a>
+  
+      <a class="navbar-brand" href="/"><img src="/Assets/images/nina.png" width="30px" height="30px"> Christina May Pakingan</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
 
           <% if ((title == "Home") || (title == "/")){ %>
@@ -26,13 +26,13 @@
             <a class="nav-link" aria-current="page" href="/about"><i class="fas fa-address-card"></i> About </a>
           </li>
 
-          <% if (title == "Products"){ %>
+          <% if (title == "Projects"){ %>
             <li class="nav-item active ">
               <% } else { %>
                 <li class="nav-item">
               <% } %>
 
-            <a class="nav-link" aria-current="page" href="/products">Products</a>
+            <a class="nav-link" aria-current="page" href="/projects"><i class="fas fa-laptop-house"></i> Projects </a>
           </li>
 
           <% if (title == "Services"){ %>
@@ -40,7 +40,7 @@
               <% } else { %>
                 <li class="nav-item">
               <% } %>
-            <a class="nav-link" aria-current="page" href="/Services">Services</a>
+            <a class="nav-link" aria-current="page" href="/Services"><i class="fas fa-concierge-bell"></i> Services </a>
           </li>
 
           <% if (title == "Contact Us"){ %>
@@ -49,10 +49,9 @@
                 <li class="nav-item">
               <% } %>
 
-            <a class="nav-link" aria-current="page" href="/contactus"><i class="far fa-address-book"></i> Contact Us </a>
+            <a class="nav-link" aria-current="page" href="/contactus"><i class="fas fa-phone-square-alt"></i> Contact </a>
           </li>
 
-
-    </div>
-  </div>
+        </div>
+          </div>
   </nav>
